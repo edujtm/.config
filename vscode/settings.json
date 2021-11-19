@@ -1,0 +1,84 @@
+{
+    "[python]": {},
+    "explorer.autoReveal": false,
+    "mssql.connections": [],
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.startupEditor": "none",
+    "mdb.confirmRunAll": false,
+    "editor.fontFamily": "'JetBrains Mono NL', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.tokenColorCustomizations": {
+      "[Gruvbox Dark Hard]": {
+        "functions": "#B8BB26",
+        "textMateRules": [
+            {
+              "name": "variables",
+              "scope": [
+                "meta.parameter.type.variable",
+                "variable",
+                "variable.name",
+                "variable.other",
+                "variable.parameter",
+                "string.constaint.other.placeholder",
+              ],
+              "settings": {
+                "foreground": "#EBDBB2"
+              }
+            },
+            {
+              "name": "properties",
+              "scope": [
+                "variable.other.property",
+              ],
+              "settings": {
+                "foreground": "#D3869B"
+              }
+            },
+            {
+              "name": "classes",
+              "scope": [
+                "entity.name.type"
+              ],
+              "settings": {
+                "foreground": "#8EC07C"
+              }
+            },
+            {
+              "name": "interfaces",
+              "scope": [
+                "entity.name.type.interface"
+              ],
+              "settings": {
+                "foreground": "#83A598"
+              }
+            },
+            {
+              "name": "modifier",
+              "scope": [
+                "storage.modifier"
+              ],
+              "settings": {
+                "foreground": "#FB4934"
+              }
+            }
+        ],
+      }
+    }
+}
