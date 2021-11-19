@@ -6,6 +6,9 @@
     "workbench.startupEditor": "none",
     "mdb.confirmRunAll": false,
     "editor.fontFamily": "'JetBrains Mono NL', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "300",
+    "editor.lineHeight": 1.2,
     "editor.fontLigatures": true,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.suggestSelection": "first",
@@ -36,7 +39,7 @@
                 "variable.name",
                 "variable.other",
                 "variable.parameter",
-                "string.constaint.other.placeholder",
+                "string.constaint.other.placeholder"
               ],
               "settings": {
                 "foreground": "#EBDBB2"
@@ -45,7 +48,7 @@
             {
               "name": "properties",
               "scope": [
-                "variable.other.property",
+                "variable.other.property"
               ],
               "settings": {
                 "foreground": "#D3869B"
@@ -77,8 +80,58 @@
               "settings": {
                 "foreground": "#FB4934"
               }
+            },
+            // C# Configurations
+            {
+              "name": "C# Classes",
+              "scope": [
+                "storage.type.cs"
+              ],
+              "settings": {
+                "foreground": "#8EC07C"
+              }
+            },
+            {
+              "name": "C# properties",
+              "scope": [
+                "variable.other.object.property.cs"
+              ],
+              "settings": {
+                "foreground": "#D3869B"
+              }
+            },
+            {
+              "name": "C# Parameters",
+              "scope": [
+                "entity.name.variable.parameter.cs",
+                "entity.name.variable.field.cs",
+                "entity.name.variable.local.cs",
+                "variable.other.readwrite.cs"
+              ],
+              "settings": {
+                "foreground": "#EBDBB2"
+              }
+            },
+            {
+              "name": "C# namespace names",
+              "scope": [
+                "entity.name.type.namespace.cs"
+              ],
+              "settings": {
+                "foreground": "#EBDBB2"
+              }
+            },
+            {
+              "name": "C# Usings",
+              "scope": [
+                "keyword.other.using.cs"
+              ],
+              "settings": {
+                "foreground": "#FB4934"
+              }
             }
-        ],
+        ]
       }
-    }
+    },
+    "window.zoomLevel": 1
 }
